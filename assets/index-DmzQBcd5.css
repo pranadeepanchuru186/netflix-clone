@@ -1135,8 +1135,9 @@ body {
   font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #111;
-  color: white;
+  background: linear-gradient(180deg, #141414 0%, #000 100%);
+  color: #fff;
+  overflow-x: hidden;
 }
 
 code {
@@ -1146,4 +1147,7 @@ code {
 
 h2 {
   margin-left: 20px;
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: #e5e5e5;
 }
